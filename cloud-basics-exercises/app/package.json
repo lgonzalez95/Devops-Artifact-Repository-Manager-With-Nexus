@@ -1,0 +1,17 @@
+{
+  "name": "bootcamp-node-project",
+  "version": "1.5.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "publish": "npm publish --registry=http://144.126.218.34:8081/repository/hosted-repositories-node-app/"
+  },
+  "author": "NJ",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.18.2",
+    "jest": "29.5.0"
+  }
+}
