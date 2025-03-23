@@ -20,7 +20,7 @@ This document guides you through setting up and managing a Nexus Repository Mana
 ### Starting nexus
 1. Switch to nexus user: `su - nexus`;
 2. Start nexus: `/opt/nexus-3.77.1-01/bin/nexus start`
-3. Check it is running: `ps aux | gep nexus`
+3. Check it is running: `ps aux | grep nexus`
 4. Make sure to open the firewall port for Nexus, in this case por `8081`
 
 ### Nexus repo types:
